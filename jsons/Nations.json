@@ -1,18 +1,18 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
+		"name": "Jomsborg",
+		"leaderName": "Harold Bluetooth",
+		"adjective": ["Jomswviking"],
 		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "Heill",
+		"startIntroPart2": "Heil og sæl",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": "Við lýsum yfir stríði!",
+		"attacked": "Þú ætlar að berjast? Komdu þá!",
+		"defeated": "Við höfum tapað, en við munum hefna okkar!",
+		"introduction": "Velkomnir, gestir! Við heiðrum ykkur með okkar gestrisni.",
 		
 		"neutralHello": "How are you doing?",
 		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
@@ -27,12 +27,13 @@
 		"afterPeace": "Very well, all that fighting was getting boring anyway.",
 		"tradeRequest": "We bestow you the honor of this trade offer.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"outerColor": [36,16,56],
+		"innerColor": [215,180,180],
+		"uniques": "[-100]% maintenance costs <for [Water] units>",
+			    "When defeating a [{Barbarian} {Water}] unit, earn [25] Gold and recruit it <with [50]% chance>"],
+			    "[+10]% Strength <for [All] units> <during a Golden Age>",
+			    "[+100]% Golden Age length",
+			    "[+200]% [Gold] from City-States",
+		"cities": ["Jomsborg","Aalborg","Aarhus","Aggersborg","Alrekstad","Bergen","Birka","Borg","Dublin","Fyrkat","Gamla Uppsala","Hedeby","Jelling","Kaupang","Kiev","L'Anse aux Meadows","Lejre","Limerick","Lund","Trondheim","Odense","Reykjavík","Ribe","Roskilde","Scarborough","Sigtuna","Stavanger","Trelleborg","Uppåkra","Jorvik"]
 	}
 ]
