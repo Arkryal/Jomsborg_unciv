@@ -1,17 +1,30 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
+		"name": "Drengir",
+		"unitType": "Sword",
+		"uniqueTo": "Jomsborg",
+		"replaces": "Warrior",
+		"movement": 4,
+		"strength": 25,
+		"cost": 20,
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>",
+		"[+50]% XP gained from combat"],
 		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"attackSound": "metalhit"
+	},{
+		"name": "Styrsmnan",
+		"unitType": "Sword",
+		"uniqueTo": "Jomsborg",
+		"replaces": "Great General",
+		"movement": 4,
+		"strength": 50,
+		"cost": 20,
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>",
+		"[+50]% XP gained from combat",
+		"[+25]% Strength bonus for [Military] units within [4] tiles",
+		"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+            	"Can instantly construct a [Citadel] improvement <by consuming this unit>"],
+		"promotions": ["Logistics","Accuracy I","Great Generals II"],
+		"attackSound": "metalhit"
 	}
 ]
